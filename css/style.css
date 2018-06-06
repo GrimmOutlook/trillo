@@ -64,8 +64,7 @@ body {
 
 .hotel-view {
   flex: 1;
-  background-color: #fff;
-  height: 80rem; }
+  background-color: #fff; }
 
 .logo {
   height: 3.25rem;
@@ -198,7 +197,7 @@ body {
     display: block; }
 
 .overview {
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   display: flex;
   align-items: center; }
   .overview__heading {
@@ -265,3 +264,21 @@ body {
   100% {
     transform: scale(1);
     box-shadow: none; } }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line); }
+
+.description {
+  background-color: #fff;
+  font-size: 1.5rem;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: yellowgreen;
+  flex: 1; }
